@@ -3,11 +3,13 @@ package com.matis;
 
 
 public class Main {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println("Hello World!");
 
         variableTypesDisplay();
         variablesTypesDifferencesDisplay();
+
+        stringMethodsDisplay();
     }
 
     private static void displayBreak(String title){
@@ -27,15 +29,20 @@ public class Main {
 
     private static void variablesTypesDifferencesDisplay(){
         displayBreak("Primitive Variables");
-
         VariableTypesDifferences.primitiveVariables();
 
         displayBreak("Reference Variables");
-
         VariableTypesDifferences.referenceVariables();
 
         displayBreak("String Variable");
-
         VariableTypesDifferences.stringVariable();
+    }
+
+    private static void stringMethodsDisplay(){
+        displayBreak("String Transformation Methods");
+        StringMethods.transformationMethods();
+
+        displayBreak("String Findings Methods");
+        StringMethods.findingMethods();
     }
 }
