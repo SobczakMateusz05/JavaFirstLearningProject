@@ -2,10 +2,13 @@ package com.matis;
 
 public class ArithmeticsExpressions {
     public static void basicsOperations(){
-        int sum = 1+2;
-        int sub = 3-2;
-        int mul = 4*5;
-        double div = (double)5 / 3;
+        byte operand = 1;
+        String stringOperand = "3";
+
+        int sum = operand + 2; // It's possible cause implicit casting
+        int sub = Integer.parseInt(stringOperand) - 2; // It's possible cause explicit casting
+        int mul = 4 * 5;
+        double div = (double)5 / 3; // It's possible cause explicit casting
 
         System.out.println("sum: " + sum);
         System.out.println("sub: " + sub);
