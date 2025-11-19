@@ -10,6 +10,8 @@ public class Main {
         variablesTypesDifferencesDisplay();
 
         stringMethodsDisplay();
+
+        ArraysDisplay();
     }
 
     private static void displayBreak(String title){
@@ -44,5 +46,13 @@ public class Main {
 
         displayBreak("String Findings Methods");
         StringMethods.findingMethods();
+    }
+
+    private static void ArraysDisplay(){
+        displayBreak("Basic Arrays Operations");
+        ArraysFundaments.basicOperation();
+
+        displayBreak("Multidimensional Arrays");
+        ArraysFundaments.multiDimensionalArray();
     }
 }
