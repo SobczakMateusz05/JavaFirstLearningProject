@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaLearning.iml" filepath="$PROJECT_DIR$/.idea/JavaLearning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MortageCalculatorV1/MortageCalculatorV1.iml" filepath="$PROJECT_DIR$/MortageCalculatorV1/MortageCalculatorV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MortgageCalculatorV1/MortageCalculatorV1.iml" filepath="$PROJECT_DIR$/MortgageCalculatorV1/MortageCalculatorV1.iml" />
     </modules>
   </component>
 </project>
