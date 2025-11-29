@@ -12,7 +12,7 @@ public class IfStatement {
     public static void income(){
         int income = provideIncome() ;
         boolean hasHighIncome = (income > 100_000);
-        String className = hasHighIncome ? "Higher Class" : "Normal Class" ;
+        String className = hasHighIncome ? "First" : "Economic" ; // Ternary operator
 
         System.out.println("has high income?: " + hasHighIncome);
         System.out.println("class: " + className);
